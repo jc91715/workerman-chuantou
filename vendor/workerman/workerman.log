@@ -713,3 +713,6 @@ Stack trace:
 2021-04-05 19:04:01 pid:1103 Workerman[client.php] stopping ...
 2021-04-05 19:04:01 pid:1103 Workerman[client.php] has been stopped
 2021-04-05 19:04:29 pid:1109 Workerman[client.php] start in DEBUG mode
+2021-04-05 19:14:38 pid:1109 Workerman[client.php] stopping ...
+2021-04-05 19:14:39 pid:1109 Workerman[client.php] has been stopped
+2021-04-05 19:14:39 pid:1115 Workerman[client.php] start in DEBUG mode
