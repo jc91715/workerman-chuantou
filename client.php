@@ -24,7 +24,7 @@ $worker->onWorkerStart = function($worker)
         global $config;
         $addr =  $config['local_address'];
         echo "$addr\n";
-        $buffer = str_replace('Host: '.$config['server_ip'].':'.$config['server_port'],'Host: '.$addr,$buffer);//将HOST设为目标值
+        $buffer = str_replace('Host: '.$config['server_ip'],'Host: '.$addr,$buffer);//将HOST设为目标值
         echo "$buffer\n";
 
         // echo "$url_data";
