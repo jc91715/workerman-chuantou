@@ -44,6 +44,7 @@ server {
 
 启动服务端
 
+
 可以先不加-d 运行，等调试通过，再用-d参数
 
 ```
@@ -51,6 +52,7 @@ php server.php start -d
 ```
 
 启动客户端
+
 可以先不加-d 运行，等调试通过，再用-d参数
 ```
 php client.php start -d 
