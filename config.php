@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'secret'=>'abcdefghijl',//连接密钥 11位
+    'secret'=>'abcdefghijk',//连接密钥 11位
     'server_ip'=>'workerman-chuantou.jc91715.top',//配置外网访问的那个连接，有端口的话带端口
     'server_port'=>'8483',//服务器监听端口
     'local_address' => 'nginx:8483',//本地代理的地址
